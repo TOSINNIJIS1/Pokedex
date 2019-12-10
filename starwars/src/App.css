@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+
+  /* text-align: center; */
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Header {
+  color: #443e3e;
+  text-shadow: 1px 1px 5px #fff;
+}
+/* write your parent styles in here for your App.js */
+
+.Card {
+  margin-bottom: 40px;
+  margin: 20%;
+  background: url('./sw-bg.jpg');
+  width: 60%;
+  
+}
+
+.cardBody {
+  padding-bottom: 30px;
+  background: burlywood;
+  border: 2px solid white;
+  background-blend-mode: color-dodge;  
+  width: 100%;
+}
+
+.image {
+  box-sizing: border-box;
+
+  padding : 10px;
+  border-radius: 1rem;
+}
+
+.image:hover {
+  transform: rotate3d(1, 1, 1234568, -3.14rad);
+  transform: rotate3d(1, 1, 1234568, 3.14rad);
+
+  transition: 19s;
+  background: transparent;
+  border: white 2px solid;
+
+}
+.text {
+  text-align: left;
+}
+
+.cardBody:hover {
+  background: transparent;
+  color: white;
+  border:  2px seashell dashed;
+}
+.text:hover {
+  color:black;
+  transition: 2s;
+  transform: rotate3d(1, -5, -1, -1.1turn);
+}
+
+.title {
+  background: beige;
+  color: black; 
+  text-align: center;
+}
+
+.title:hover {
+  color: black;
+}
